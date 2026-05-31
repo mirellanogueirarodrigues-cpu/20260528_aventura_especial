@@ -122,7 +122,6 @@ function mostrarCena(cena) {
 
     dadosCena.escolhas.forEach(escolha => {
         const botao = document.createElement("button");
-
         botao.textContent = escolha.texto;
 
         botao.addEventListener("click", () => {
@@ -136,7 +135,6 @@ function mostrarCena(cena) {
         elementoImagem.src = imagemReiniciar;
 
         const reiniciar = document.createElement("button");
-
         reiniciar.textContent = "Jogar novamente";
 
         reiniciar.addEventListener("click", () => {
@@ -146,3 +144,5 @@ function mostrarCena(cena) {
         opcoes.appendChild(reiniciar);
     }
 }
+
+mostrarCena("inicio");
