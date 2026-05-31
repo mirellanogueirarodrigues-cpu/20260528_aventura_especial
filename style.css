@@ -20,6 +20,18 @@ body{
 h1{
     text-align:center;
     color:#d94fa9;
+    margin-top: 0;
+}
+
+/* Nova estilização para a imagem */
+#imagem-jogo {
+    display: block;
+    max-width: 100%;
+    max-height: 350px;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 #texto{
@@ -38,6 +50,7 @@ button{
     color:white;
     cursor:pointer;
     font-size:16px;
+    transition: background 0.2s ease;
 }
 
 button:hover{
