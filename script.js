@@ -114,7 +114,7 @@ function mostrarCena(cena) {
     document.getElementById("texto").innerText = dadosCena.texto;
 
     const elementoImagem = document.getElementById("imagem-jogo");
-    elementoImagem.src = dadosCena.imagem;
+    const imagemReiniciar = "img/Amora.14.png";
     elementoImagem.alt = "Cena do jogo";
 
     const opcoes = document.getElementById("opcoes");
