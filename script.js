@@ -2,7 +2,7 @@ const historia = {
 
     inicio: {
         texto: "Estava lendo um belo livro sobre um lugar mágico chamado Mundo de Amora. Até que as páginas começaram a brilhar e um portal apareceu diante de você. Uma pequena fada chamada Amora estendeu a mão.",
-        imagem: "Amora.1.png",
+        imagem: "img/Amora.1.png",
         escolhas: [
             { texto: "Segurar a patinha de Amora", proximo: "passo1" },
             { texto: "Fechar o livro e fugir", proximo: "passo2" }
