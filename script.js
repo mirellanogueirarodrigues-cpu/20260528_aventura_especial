@@ -81,13 +81,13 @@ const historia = {
 
     passo9: {
         texto: "FINAL BOM 🌸 Você retorna para casa exatamente no instante em que saiu.",
-        imagem: "img/Amora.10.png",
+        imagem: "img/Amora.11.png",
         escolhas: []
     },
 
     passo10: {
         texto: "Você aproveita a festa, mas percebe que o portal está desaparecendo.",
-        imagem: "img/Amora.11.png",
+        imagem: "img/Amora.13.png",
         escolhas: [
             { texto: "Correr para o portal", proximo: "finalSecreto" }
         ]
@@ -101,12 +101,11 @@ const historia = {
 
     finalRuim: {
         texto: "FINAL RUIM ⚠️ A magia desaparece e você não consegue concluir sua missão.",
-        imagem: "img/Amora.13.png",
+        imagem: "img/Amora.14.png",
         escolhas: []
     }
 };
 
-const imagemReiniciar = "img/Amora.14.png";
 
 function mostrarCena(cena) {
     const dadosCena = historia[cena];
